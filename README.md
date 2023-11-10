@@ -5,6 +5,7 @@
 <div align="center">
   <img src="https://i.imgur.com/rFedwl3.png" />
   <p align="center"> A modern password generator and manager app </p>
+  <p align="center"> V1.0 </p>
 </div>
 
 
