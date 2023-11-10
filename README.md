@@ -16,9 +16,6 @@
 - Modern UI
 - Offline Usage
 
-## Images:
-
-
 # Credits:
 
 [Python](https://www.python.org/)
