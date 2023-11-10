@@ -12,9 +12,9 @@
 
 - Create strong and secure passwords
 - Passwords are generated based on the users criteria
-- Save Passwords
-- Modern UI
+- Passwords can be saved
 - Offline Usage
+- Modern UI
 
 # Credits:
 
