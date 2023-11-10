@@ -8,7 +8,6 @@
   <p align="center"> V1.0 </p>
 </div>
 
-
 ## Features:
 
 - Create strong and secure passwords
