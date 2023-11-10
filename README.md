@@ -3,7 +3,7 @@
 ---
 
 <div align="center">
-  <img src="https://i.imgur.com/XgHLX9m.png" />
+  <img src="https://i.imgur.com/rFedwl3.png" />
   <p align="center"> A modern password generator and manager app </p>
 </div>
 
