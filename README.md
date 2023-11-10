@@ -8,7 +8,7 @@
   <p align="center"> V1.0 </p>
 </div>
 
-## Features:
+# Features:
 
 - Create strong and secure passwords
 - Passwords are generated based on the users criteria
@@ -20,11 +20,11 @@
 
 [Python](https://www.python.org/)
 
+Tom Schimansky - Custom Tkinter
+
 [CustomTkinter Github](https://github.com/TomSchimansky/CustomTkinter "CustomTkinter")
 
 [CustomTkinter Offical Website](https://customtkinter.tomschimansky.com/)
-
-Tom Schimansky - Custom Tkinter
 
 # Disclaimer:
 
