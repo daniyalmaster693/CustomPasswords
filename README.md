@@ -34,7 +34,7 @@ This app was made as a fun side project rather then an actual app
 
 Passwords and settings do not save to a database
 
-I may come back in the future and update and add this functionallity
+I may update this app in the future and add in this functionallity
 
 
 # Last Updated:
