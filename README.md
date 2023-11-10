@@ -30,6 +30,7 @@
 Tom Schimansky - Custom Tkinter
 
 # Disclaimer:
+
 This app was made as a fun side project rather then an actual app
 
 Passwords and settings do not save to a database
@@ -38,4 +39,5 @@ I may update this app in the future and add in this functionallity
 
 
 # Last Updated:
+
 09/11/2023
