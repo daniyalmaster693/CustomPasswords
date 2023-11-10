@@ -25,7 +25,7 @@
 
 [CustomTkinter Github](https://github.com/TomSchimansky/CustomTkinter "CustomTkinter")
 
-[CustomTkinter Offical Website](https://github.com/TomSchimansky/CustomTkinter "CustomTkinter](https://customtkinter.tomschimansky.com/)")
+[CustomTkinter Offical Website](https://customtkinter.tomschimansky.com/)
 
 Tom Schimansky - Custom Tkinter
 
