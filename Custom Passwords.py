@@ -10,18 +10,18 @@ app.title ("Custom Passwords") # this code is used to select what the title bar 
 
 
 customtkinter.set_appearance_mode ("System") 
-customtkinter.set_default_color_theme ("dark-blue") #settings the appearance of the app
+customtkinter.set_default_color_theme ("dark-blue") # sets the appearance of the app
 
 
 def raise_frame (frame): # this function allows frames to be raised (allowing frame switching)
     frame.tkraise ()
 
 
-def close_program (): #this function allows the exit button to close the application
+def close_program (): # this function allows the exit button to close the application
     app.quit()
 
 
-def change_appearance_mode (new_appearance_mode: str): #this fucntion allows the settings option menu for appearance modes to chnage the mode from dark to light
+def change_appearance_mode (new_appearance_mode: str): # this fucntion allows the settings option menu for appearance modes to chnage the mode from dark to light
     customtkinter.set_appearance_mode (new_appearance_mode)
 
 
@@ -43,7 +43,7 @@ def copy_password_to_clipboard (): # this function allows the copy button to tak
 password_label = []
 
 
-def add_password (): # this function allows you to add a password to the textbox in order to save passwords
+def add_password (): # this function allows you to add a password to the scrollable frame in order to save passwords
     password = entry_1.get ()
     entry_1.delete (0, customtkinter.END)
     Label = customtkinter.CTkLabel (scrollable_frame_1, text = password)
@@ -51,7 +51,7 @@ def add_password (): # this function allows you to add a password to the textbox
     password_label.append (Label)
 
 
-def delete_password (Label): # this functoin allows you to delete a password from the textbox in that frame/list
+def delete_password (Label): # this function allows you to delete a password from the scrollable frame
     if password_label:
         Label = password_label [-1]
         Label.destroy ()
@@ -62,7 +62,7 @@ def generate_password (length, use_letters = True, use_numbers = True, use_symbo
     characters = ""
 
 
-    use_letters = password_generator_switch_1.get () == "Yes" # this is part of the code used to allow the user to determine what is included in the password
+    use_letters = password_generator_switch_1.get () == "Yes" # this code is used to allow the user to determine what is included in the password
     use_numbers = password_generator_switch_2.get () == "Yes"
     use_symbols = password_generator_switch_3.get () == "Yes"
 
@@ -90,7 +90,7 @@ def generate_password (length, use_letters = True, use_numbers = True, use_symbo
 
 
 
-def generate_password_button_clicked (): # this function controls everything that happens when you click generate password#
+def generate_password_button_clicked (): # this function controls everything that happens when you click generate password
     
 
     use_letters = password_generator_switch_1.get () == "Yes" # this code gets the computer to take the user's set parameters to generate the password
@@ -101,7 +101,7 @@ def generate_password_button_clicked (): # this function controls everything tha
     error_message = ""
 
 
-    if not (use_letters or use_numbers or use_symbols): # this code give sthe user a error message when a parameter is not selected
+    if not (use_letters or use_numbers or use_symbols): # this code gives the user an error message when a parameter is not selected
         error_message = "You must select at least one switch in order to generate a password"
 
 
@@ -120,7 +120,7 @@ def generate_password_button_clicked (): # this function controls everything tha
 
     
     try:
-        password_length = int (entry_2.get()) # this code is used to grab the input of the user for the length of the password
+        password_length = int (entry_2.get()) # this code is used to grab the input from the user for the length of the password
         if 1 <= password_length <= 12:
             password = generate_password (password_length)
             entry_2.delete (0, END)
