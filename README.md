@@ -12,15 +12,14 @@
 
 - Create strong and secure passwords
 - Passwords are generated based on the users criteria
- <img src="https://i.imgur.com/eVMyFaY.png" />
-
-
 - Passwords can be saved
 - Offline Usage
 - Modern UI
 
-  
   <img src="https://i.imgur.com/8edi27T.png" />
+  <img src="https://i.imgur.com/eVMyFaY.png" />
+  <img src="https://i.imgur.com/WYEYQ25.png" />
+  <img src="https://i.imgur.com/nxxkQ9A.png" />
 
 
 # Credits:
