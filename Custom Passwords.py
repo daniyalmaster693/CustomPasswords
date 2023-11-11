@@ -9,10 +9,6 @@ app.geometry ("1000x700") # this code is used to create the size of the window f
 app.title ("Custom Passwords") # this code is used to select what the title bar text should say
 
 
-icon_path = r"C:\Users\daniy\OneDrive\Python\Projects\Apps\Password Generator\Main Verision/Custom Passwords Icon.ico" # this code is used to allow the user to get an icon for the app
-app.iconbitmap (default = icon_path) # this code is used to tell the computer to use the icon from the file path for the icon of the app
-
-
 customtkinter.set_appearance_mode ("System") 
 customtkinter.set_default_color_theme ("dark-blue") #settings the appearance of the app
 
