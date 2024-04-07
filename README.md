@@ -34,7 +34,7 @@ Tom Schimansky - Custom Tkinter
 
 # Disclaimer:
 
-This app was made as a fun side project rather than an actual app
+This app was made as a side project rather than an actual app
 
 Passwords and settings do not save to a database
 
